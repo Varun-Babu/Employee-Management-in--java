@@ -20,11 +20,7 @@ public class Employee {
         this.companyName = company;
     }
 
-    public String toString() {
-        return "\nEmployee Details :" + "\nID: " + this.id + "\nName: " + this.name + "\nSalary: " +
-                this.salary + "\nContact No: " + this.contactNo + "\nEmail-id: " + this.emailId
-                + "\nCompany " + this.companyName + "\nDesignation: " + this.designation;
-    }
+
 
     static void display(ArrayList<Employee> al) {
         System.out.println("\n--------------Employee List---------------\n");
